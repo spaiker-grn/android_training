@@ -1,0 +1,3 @@
+[submodule "android_training"]
+	path = android_training
+	url = https://github.com/spaiker-grn/android_training.git
