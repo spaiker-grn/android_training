@@ -8,12 +8,12 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    final TextView mtextView = (TextView) findViewById(R.id.textView);
+    final TextView mTextView = (TextView) findViewById(R.id.textView);
 
     @Override
     public void onClick(final View v) {
 
-        mtextView.setText("Hello Epam");
+        mTextView.setText("Hello Epam");
 
     }
 
