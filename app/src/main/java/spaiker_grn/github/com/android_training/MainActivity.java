@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button.setOnClickListener(this);
         //added to Stash
+        //add Tag ver 1.0
 
     }
 }
