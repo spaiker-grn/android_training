@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(final View v) {
 
         mTextView.setText("Hello Epam");
+        final Toast toast = Toast.makeText(this, "Hello Epam", Toast.LENGTH_SHORT);
+        toast.show();
 
     }
 
