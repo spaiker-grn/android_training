@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final Button button = (Button) findViewById(R.id.button);
 
         button.setOnClickListener(this);
+        //add comment
 
     }
 }
